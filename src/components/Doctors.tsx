@@ -41,7 +41,7 @@ const Doctors = () => {
     <section id="doctors" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-medical-darkBlue mb-4">
+          <h2 className="text-4xl font-bold text-medical-blue mb-4">
             Наши врачи
           </h2>
           <p className="text-xl text-medical-gray max-w-3xl mx-auto">
@@ -64,11 +64,11 @@ const Doctors = () => {
                     alt={doctor.name}
                     className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-medical-darkBlue/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-medical-blue/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-lg font-bold text-medical-darkBlue mb-2">
+                  <h3 className="text-lg font-bold text-medical-blue mb-2">
                     {doctor.name}
                   </h3>
                   <p className="text-medical-blue font-medium mb-3">
@@ -77,17 +77,25 @@ const Doctors = () => {
 
                   <div className="space-y-2 text-sm text-medical-gray">
                     <div className="flex items-center space-x-2">
-                      <Icon name="Clock" size={14} />
+                      <Icon
+                        name="Clock"
+                        size={14}
+                        className="text-medical-green"
+                      />
                       <span>Опыт: {doctor.experience}</span>
                     </div>
                     <div className="flex items-center space-x-2">
-                      <Icon name="GraduationCap" size={14} />
+                      <Icon
+                        name="GraduationCap"
+                        size={14}
+                        className="text-medical-green"
+                      />
                       <span>{doctor.education}</span>
                     </div>
                   </div>
 
-                  <div className="mt-6 pt-4 border-t border-medical-lightBlue">
-                    <button className="w-full bg-medical-lightBlue text-medical-blue py-2 rounded-lg hover:bg-medical-blue hover:text-white transition-colors">
+                  <div className="mt-6 pt-4 border-t border-gray-200">
+                    <button className="w-full bg-medical-orange text-white py-2 rounded-lg hover:bg-medical-orange/90 transition-colors">
                       Записаться к врачу
                     </button>
                   </div>

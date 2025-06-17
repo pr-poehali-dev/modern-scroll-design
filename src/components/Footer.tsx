@@ -2,12 +2,12 @@ import Icon from "@/components/ui/icon";
 
 const Footer = () => {
   return (
-    <footer className="bg-medical-darkBlue text-white py-12">
+    <footer className="bg-slate-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 medical-gradient rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
                 <Icon name="Heart" size={20} className="text-white" />
               </div>
               <h3 className="text-xl font-bold">МедЦентр</h3>
@@ -23,42 +23,27 @@ const Footer = () => {
             <h4 className="font-bold mb-4">Услуги</h4>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a
-                  href="#"
-                  className="hover:text-medical-mint transition-colors"
-                >
+                <a href="#" className="hover:text-orange-500 transition-colors">
                   Кардиология
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-medical-mint transition-colors"
-                >
+                <a href="#" className="hover:text-orange-500 transition-colors">
                   Неврология
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-medical-mint transition-colors"
-                >
+                <a href="#" className="hover:text-orange-500 transition-colors">
                   Педиатрия
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-medical-mint transition-colors"
-                >
+                <a href="#" className="hover:text-orange-500 transition-colors">
                   Хирургия
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-medical-mint transition-colors"
-                >
+                <a href="#" className="hover:text-orange-500 transition-colors">
                   УЗИ диагностика
                 </a>
               </li>
@@ -69,42 +54,27 @@ const Footer = () => {
             <h4 className="font-bold mb-4">Информация</h4>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a
-                  href="#"
-                  className="hover:text-medical-mint transition-colors"
-                >
+                <a href="#" className="hover:text-orange-500 transition-colors">
                   О клинике
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-medical-mint transition-colors"
-                >
+                <a href="#" className="hover:text-orange-500 transition-colors">
                   Наши врачи
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-medical-mint transition-colors"
-                >
+                <a href="#" className="hover:text-orange-500 transition-colors">
                   Лицензии
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-medical-mint transition-colors"
-                >
+                <a href="#" className="hover:text-orange-500 transition-colors">
                   Отзывы
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-medical-mint transition-colors"
-                >
+                <a href="#" className="hover:text-orange-500 transition-colors">
                   Вакансии
                 </a>
               </li>
@@ -141,13 +111,13 @@ const Footer = () => {
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a
               href="#"
-              className="text-gray-300 hover:text-medical-mint transition-colors"
+              className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Политика конфиденциальности
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:text-medical-mint transition-colors"
+              className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Пользовательское соглашение
             </a>

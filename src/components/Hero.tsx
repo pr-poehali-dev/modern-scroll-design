@@ -13,11 +13,11 @@ import Icon from "@/components/ui/icon";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-medical-lightBlue to-white py-20">
+    <section className="relative bg-gradient-to-br from-blue-50 to-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
-            <h1 className="text-5xl lg:text-6xl font-bold text-medical-darkBlue mb-6">
+            <h1 className="text-5xl lg:text-6xl font-bold text-medical-blue mb-6">
               Ваше здоровье —
               <span className="text-medical-blue block">наш приоритет</span>
             </h1>
@@ -29,7 +29,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button
                 size="lg"
-                className="medical-gradient text-white px-8 py-4 text-lg"
+                className="bg-medical-orange text-white px-8 py-4 text-lg hover:bg-medical-orange/90"
               >
                 <Icon name="Calendar" className="mr-2" size={20} />
                 Записаться на прием
@@ -46,11 +46,11 @@ const Hero = () => {
 
             <div className="flex items-center space-x-8 text-medical-gray">
               <div className="flex items-center space-x-2">
-                <Icon name="Shield" size={20} className="text-medical-blue" />
+                <Icon name="Shield" size={20} className="text-medical-green" />
                 <span>Лицензированная клиника</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Icon name="Clock" size={20} className="text-medical-blue" />
+                <Icon name="Clock" size={20} className="text-medical-green" />
                 <span>Работаем 24/7</span>
               </div>
             </div>
@@ -58,7 +58,7 @@ const Hero = () => {
 
           <Card className="animate-slide-up shadow-2xl border-0">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-medical-darkBlue mb-6 text-center">
+              <h3 className="text-2xl font-bold text-medical-blue mb-6 text-center">
                 Онлайн запись на прием
               </h3>
 
@@ -100,7 +100,7 @@ const Hero = () => {
                   <Input type="datetime-local" className="mt-1" />
                 </div>
 
-                <Button className="w-full medical-gradient text-white py-3 text-lg">
+                <Button className="w-full bg-medical-orange text-white py-3 text-lg hover:bg-medical-orange/90">
                   <Icon name="Calendar" className="mr-2" size={20} />
                   Записаться на прием
                 </Button>

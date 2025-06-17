@@ -77,10 +77,10 @@ const Services = () => {
     <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-medical-darkBlue mb-4">
+          <h2 className="text-4xl font-bold text-blue-600 mb-4">
             Наши медицинские услуги
           </h2>
-          <p className="text-xl text-medical-gray max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Полный спектр медицинских услуг от опытных специалистов. Современное
             оборудование и индивидуальный подход к каждому пациенту.
           </p>
@@ -94,24 +94,24 @@ const Services = () => {
             {[...services, ...services].map((service, index) => (
               <Card
                 key={index}
-                className="service-card flex-shrink-0 w-72 border-0 shadow-lg bg-gradient-to-br from-white to-medical-lightBlue"
+                className="service-card flex-shrink-0 w-72 border-0 shadow-lg bg-gradient-to-br from-white to-blue-50 hover:shadow-xl hover:bg-gradient-to-br hover:from-white hover:to-orange-50 transition-all duration-300"
               >
                 <CardContent className="p-8 text-center h-full flex flex-col justify-between">
-                  <div className="w-16 h-16 medical-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Icon
                       name={service.icon as any}
                       size={24}
                       className="text-white"
                     />
                   </div>
-                  <h3 className="text-xl font-bold text-medical-darkBlue mb-3">
+                  <h3 className="text-xl font-bold text-blue-600 mb-3">
                     {service.name}
                   </h3>
-                  <p className="text-medical-gray leading-relaxed">
+                  <p className="text-gray-600 leading-relaxed">
                     {service.description}
                   </p>
-                  <div className="mt-6 pt-4 border-t border-medical-lightBlue">
-                    <span className="text-medical-blue font-medium hover:underline cursor-pointer">
+                  <div className="mt-6 pt-4 border-t border-gray-200">
+                    <span className="text-blue-600 font-medium hover:text-orange-500 hover:underline cursor-pointer transition-colors duration-200">
                       Записаться →
                     </span>
                   </div>
@@ -122,15 +122,15 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-medical-gray mb-6">
+          <p className="text-gray-600 mb-6">
             Не нашли нужного специалиста? Свяжитесь с нами!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <div className="flex items-center justify-center space-x-2 text-medical-blue">
+            <div className="flex items-center justify-center space-x-2 text-blue-600">
               <Icon name="Phone" size={20} />
               <span className="font-medium">+7 (495) 123-45-67</span>
             </div>
-            <div className="flex items-center justify-center space-x-2 text-medical-blue">
+            <div className="flex items-center justify-center space-x-2 text-blue-600">
               <Icon name="Globe" size={20} />
               <span className="font-medium">Онлайн-запись 24/7</span>
             </div>

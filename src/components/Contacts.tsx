@@ -3,10 +3,10 @@ import Icon from "@/components/ui/icon";
 
 const Contacts = () => {
   return (
-    <section id="contacts" className="py-20 bg-medical-lightBlue">
+    <section id="contacts" className="py-20 bg-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-medical-darkBlue mb-4">
+          <h2 className="text-4xl font-bold text-medical-blue mb-4">
             Контакты и запись
           </h2>
           <p className="text-xl text-medical-gray max-w-3xl mx-auto">
@@ -18,14 +18,14 @@ const Contacts = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           <Card className="border-0 shadow-lg">
             <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 medical-gradient rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-medical-green rounded-full flex items-center justify-center mx-auto mb-6">
                 <Icon name="Phone" size={24} className="text-white" />
               </div>
-              <h3 className="text-xl font-bold text-medical-darkBlue mb-4">
+              <h3 className="text-xl font-bold text-medical-blue mb-4">
                 Телефон
               </h3>
               <div className="space-y-2 text-medical-gray">
-                <p className="text-lg font-medium text-medical-blue">
+                <p className="text-lg font-medium text-medical-orange">
                   +7 (495) 123-45-67
                 </p>
                 <p>Круглосуточно, без выходных</p>
@@ -36,10 +36,10 @@ const Contacts = () => {
 
           <Card className="border-0 shadow-lg">
             <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 medical-gradient rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-medical-green rounded-full flex items-center justify-center mx-auto mb-6">
                 <Icon name="MapPin" size={24} className="text-white" />
               </div>
-              <h3 className="text-xl font-bold text-medical-darkBlue mb-4">
+              <h3 className="text-xl font-bold text-medical-blue mb-4">
                 Адрес
               </h3>
               <div className="space-y-2 text-medical-gray">
@@ -52,10 +52,10 @@ const Contacts = () => {
 
           <Card className="border-0 shadow-lg">
             <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 medical-gradient rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-medical-green rounded-full flex items-center justify-center mx-auto mb-6">
                 <Icon name="Clock" size={24} className="text-white" />
               </div>
-              <h3 className="text-xl font-bold text-medical-darkBlue mb-4">
+              <h3 className="text-xl font-bold text-medical-blue mb-4">
                 Время работы
               </h3>
               <div className="space-y-2 text-medical-gray">
@@ -70,7 +70,7 @@ const Contacts = () => {
         <div className="mt-16 bg-white rounded-2xl shadow-xl overflow-hidden">
           <div className="grid lg:grid-cols-2">
             <div className="p-8 lg:p-12">
-              <h3 className="text-2xl font-bold text-medical-darkBlue mb-6">
+              <h3 className="text-2xl font-bold text-medical-blue mb-6">
                 Способы записи на прием
               </h3>
 
@@ -84,7 +84,7 @@ const Contacts = () => {
                     />
                   </div>
                   <div>
-                    <h4 className="font-bold text-medical-darkBlue mb-2">
+                    <h4 className="font-bold text-medical-blue mb-2">
                       Онлайн-запись
                     </h4>
                     <p className="text-medical-gray">
@@ -102,7 +102,7 @@ const Contacts = () => {
                     />
                   </div>
                   <div>
-                    <h4 className="font-bold text-medical-darkBlue mb-2">
+                    <h4 className="font-bold text-medical-blue mb-2">
                       По телефону
                     </h4>
                     <p className="text-medical-gray">
@@ -120,7 +120,7 @@ const Contacts = () => {
                     />
                   </div>
                   <div>
-                    <h4 className="font-bold text-medical-darkBlue mb-2">
+                    <h4 className="font-bold text-medical-blue mb-2">
                       В регистратуре
                     </h4>
                     <p className="text-medical-gray">
@@ -131,14 +131,14 @@ const Contacts = () => {
               </div>
             </div>
 
-            <div className="bg-medical-lightBlue p-8 lg:p-12 flex items-center justify-center">
+            <div className="bg-blue-50 p-8 lg:p-12 flex items-center justify-center">
               <div className="text-center">
                 <Icon
                   name="Heart"
                   size={80}
                   className="text-medical-blue mx-auto mb-6"
                 />
-                <h4 className="text-2xl font-bold text-medical-darkBlue mb-4">
+                <h4 className="text-2xl font-bold text-medical-blue mb-4">
                   Ваше здоровье в надежных руках
                 </h4>
                 <p className="text-medical-gray">

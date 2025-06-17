@@ -63,11 +63,12 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         medical: {
-          blue: "#0EA5E9",
-          mint: "#22D3EE",
-          lightBlue: "#E0F2FE",
-          darkBlue: "#0C4A6E",
-          gray: "#64748B",
+          blue: "#4A90E2",
+          orange: "#FF9500",
+          green: "#7ED321",
+          gray: "#6B7280",
+          lightGray: "#F3F4F6",
+          darkGray: "#374151",
         },
       },
       fontFamily: {

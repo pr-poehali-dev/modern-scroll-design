@@ -10,9 +10,7 @@ const Header = () => {
             <div className="w-10 h-10 medical-gradient rounded-full flex items-center justify-center">
               <Icon name="Heart" size={20} className="text-white" />
             </div>
-            <h1 className="text-xl font-bold text-medical-darkBlue">
-              МедЦентр
-            </h1>
+            <h1 className="text-xl font-bold text-medical-blue">МедЦентр</h1>
           </div>
 
           <nav className="hidden md:flex space-x-8">
@@ -45,12 +43,12 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <a
               href="tel:+7(495)123-45-67"
-              className="hidden sm:flex items-center space-x-2 text-medical-darkBlue"
+              className="hidden sm:flex items-center space-x-2 text-medical-blue"
             >
               <Icon name="Phone" size={16} />
               <span className="font-medium">+7 (495) 123-45-67</span>
             </a>
-            <Button className="medical-gradient text-white hover:opacity-90">
+            <Button className="bg-medical-orange text-white hover:bg-medical-orange/90">
               Записаться
             </Button>
           </div>
